@@ -1,5 +1,5 @@
-import firebase from "../firebase";
-import Profile from "../models/Profile";
+import { firebase } from "../firebase.js";
+import Profile from "../models/Profile.js";
 import {
 	getFirestore,
 	collection,
